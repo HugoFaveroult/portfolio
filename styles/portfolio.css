@@ -49,8 +49,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100vh; /* prend toute la hauteur de l’écran */
-    color: white; /* texte blanc pour contraster */
+    color: white;
     display: flex;
     flex-direction: column;
 }
