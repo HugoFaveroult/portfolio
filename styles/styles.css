@@ -14,7 +14,7 @@
 
 .texte:hover {
     color: rgb(150, 150, 150) !important;
-    border-color: rgb(27, 0, 59);
+    border-color: rgb(255, 0, 0);
     cursor: pointer;
 }
 
