@@ -1,12 +1,23 @@
 .navbar{
     background-color: rgb(0, 1, 10) !important;
 }
-.texte{
+.texte {
     color: white;
     font-family: Arial, Narrow, sans-serif;
     font-weight: bold;
-    font-size:large;
+    font-size: large;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.3s ease;
 }
+
+.texte:hover {
+    color: rgb(66, 66, 66);
+    border-color: rgb(71, 0, 86);
+    cursor: pointer;
+}
+
 
 .texte_act{
     background-color: rgb(17, 0, 54);
