@@ -20,17 +20,12 @@
 
 
 .texte_act{
-    background-color: rgb(93, 0, 0) !important ;
+    background-color: rgb(90, 0, 93);
     color:rgb(150, 150, 150);
     border-radius: 50px;
     font-family: Arial, Narrow, sans-serif;
     font-weight: bold;
     font-size:large;
-}
-
-.text_act:hover{
-    color: rgb(4, 0, 255) !important ;
-    cursor:pointer;
 }
 
 .contenu{
