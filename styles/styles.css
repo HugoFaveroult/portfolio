@@ -28,6 +28,10 @@
     font-size:large;
 }
 
+.text_act:hover{
+    color: rgb(52, 52, 52)
+}
+
 .contenu{
     margin-left: 50px;
     margin-right: 50px;
