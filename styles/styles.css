@@ -20,7 +20,7 @@
 
 
 .texte_act{
-    background-color: rgb(90, 0, 93);
+    background-color: rgb(93, 0, 0);
     color:rgb(150, 150, 150);
     border-radius: 50px;
     font-family: Arial, Narrow, sans-serif;
@@ -29,7 +29,7 @@
 }
 
 .text_act:hover{
-    color: rgb(150, 150, 150);
+    color: rgb(4, 0, 255);
     cursor:pointer;
 }
 
