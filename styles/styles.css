@@ -13,7 +13,7 @@
 }
 
 .texte:hover {
-    color: rgb(66, 66, 66);
+    color: rgb(66, 66, 66) !important;
     border-color: rgb(71, 0, 86);
     cursor: pointer;
 }
