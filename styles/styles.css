@@ -1,6 +1,8 @@
 .navbar{
     background-color: rgb(0, 1, 10) !important;
+    box-shadow: 0 -5px 20px rgb(0, 1, 10), 0 0 10px rgb(106, 0, 255);
 }
+
 .texte {
     color: white !important;
     font-family: Arial, Narrow, sans-serif;
@@ -9,7 +11,7 @@
     padding: 8px 16px;
     border: 2px solid transparent;
     border-radius: 50px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .texte:hover {
@@ -20,17 +22,19 @@
 
 
 .texte_act{
-    background-color: rgb(27, 0, 59);
+    background-color: rgb(27, 0, 59) !important;
     color:rgb(150, 150, 150);
     border-radius: 50px;
     font-family: Arial, Narrow, sans-serif;
     font-weight: bold;
     font-size:large;
-    padding: 2rem;
+    padding: 8px 16px;
+    transition:all 0.5s ease;
 }
 
-.text_act:hover{
-    color: rgb(52, 52, 52)
+.texte_act:hover{
+    background-color: rgb(15, 0, 40) !important;
+    color: rgb(59, 59, 59);
 }
 
 .contenu{
@@ -76,3 +80,31 @@ body{
 a{
     color: white;
 }
+
+#horloge{
+    text-align: right;
+    font-family: Arial, Narrow, sans-serif;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.copyright{
+    color: white;
+    font-family: Arial, Narrow, sans-serif;
+    font-weight:300;
+    font-size:medium;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(0, 1, 10);
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    box-shadow: 0 -5px 20px rgb(0, 1, 10), 0 0 10px rgb(106, 0, 255);
+}
+
