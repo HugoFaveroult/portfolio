@@ -83,7 +83,7 @@ a{
 }
 
 #horloge{
-    text-align: right;
+    text-align: center;
     font-family: Arial, Narrow, sans-serif;
     font-weight: 300;
     font-size: medium;
@@ -109,3 +109,11 @@ footer {
     box-shadow: 0 -5px 20px rgb(0, 1, 10), 0 0 10px rgb(106, 0, 255);
 }
 
+.projet{
+    text-align: center;
+    color: white;
+    font-family: Arial, Narrow, sans-serif;
+    font-weight:300;
+    font-size:medium;
+    margin-left: 0;
+}
