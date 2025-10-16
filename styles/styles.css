@@ -15,11 +15,6 @@ nav, footer, header {
   position: relative;
 }
 
-img, .card img, .portrait {
-  display: block;
-}
-
-
 * {
   box-sizing: border-box;
 }
