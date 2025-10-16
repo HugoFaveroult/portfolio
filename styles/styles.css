@@ -16,7 +16,6 @@ nav, footer, header {
 }
 
 img, .card img, .portrait {
-  height: auto;
   display: block;
 }
 
