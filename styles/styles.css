@@ -117,3 +117,12 @@ footer {
     font-size:medium;
     margin-left: 0;
 }
+
+.lien{
+    text-align: center;
+    color: white;
+    font-family: Arial, Narrow, sans-serif;
+    font-weight:300;
+    font-size: 10px;;
+    margin-left: 0;
+}
