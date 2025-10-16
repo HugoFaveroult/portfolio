@@ -16,7 +16,6 @@ nav, footer, header {
 }
 
 img, .card img, .portrait {
-  max-width: 100%;
   height: auto;
   display: block;
 }
