@@ -6,15 +6,6 @@ html, body {
   box-sizing: border-box;
 }
 
-nav, footer, header {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -133,6 +124,7 @@ footer {
     font-family: Arial, sans-serif;
     position: relative;
     box-shadow: 0 -5px 20px rgb(0, 1, 10), 0 0 10px rgb(106, 0, 255);
+    text-align: center;
 }
 
 .projet{
@@ -151,4 +143,15 @@ footer {
     font-weight:300;
     font-size: 8px;
     margin-left: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
