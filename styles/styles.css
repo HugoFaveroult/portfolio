@@ -51,8 +51,7 @@ html, body {
 }
 
 .contenu{
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 100px;
     padding-right: 100px;
     color: white;
     font-family: Arial, Narrow, sans-serif;
